@@ -1,0 +1,44 @@
+{
+  "name": "tello",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/cookie-session": "^2.0.37",
+    "express": "^4.17.1",
+    "ganglion-ble": "^1.0.0",
+    "muse-js": "^3.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1",
+    "socket.io": "^2.2.0",
+    "styled-components": "^4.3.2",
+    "typescript": "^3.5.2",
+    "uws": "^10.148.2"
+  },
+  "main": "src/electron-starter.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "electron": "electron ."
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "electron": "^5.0.4"
+  }
+}

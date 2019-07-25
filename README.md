@@ -77,7 +77,7 @@ npm install electron --save -dev --save -exact
 
 ## Helpful Diagram #1
 
-![electron](/Users/Myles/desktop/images/electron.jpeg)
+![electron](./pics/electron.jpeg)
 
 This diagram displays a basic overview and useful information that regards electron.  Most of the important topics are explained in the above problems and solutions.  An essential aspect of electron that was not covered above was IPC. IPC is "Internal Process Communication," which in turn just refers to the process of browser windows communicating between each other by using "event methods."
 
@@ -85,7 +85,7 @@ This diagram displays a basic overview and useful information that regards elect
 
 
 ## Helpful Diagram #2
-![events module](/Users/Myles/Desktop/images/Events_module.jpeg)
+![events module](./pics/Events_module.jpeg)
 
 This diagram goes into more detail when wondering "what is an event module actually, and how do I implement it?"  
 
@@ -143,7 +143,7 @@ npx create-react-app <name of app>
 	import {useEffect, useState} from 'react';
 	```
 ## Helpful Diagram #3
-![controller-map](/Users/Myles/Desktop/images/controller-map.jpeg)
+![controller-map](./pics/controller-map.jpeg)
 This image displays a visual representation of how the information is being sent from the user to a web-browser then to the backend-browser (which communicates to the robot).  This is done using web-sockets or the socket.io library. Here is some code that allows the back end webscoket to work:
 
 ```

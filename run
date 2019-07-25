@@ -1,0 +1,5 @@
+cd src
+node tello.js
+npm run start
+npm run electron
+

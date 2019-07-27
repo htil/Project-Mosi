@@ -86,7 +86,12 @@ const Commands = () => (
                 <button className="ui button" onClick= {sendCommand('land')}>Land</button>   
             </div>
             
-            <div className="ui vertical basic buttons">
+            <div style= {{
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                margin: '0 auto'
+            }} className="ui vertical basic buttons">
                 <button className= "ui button" onClick={sendCommand('down 50')}>Down 50cm</button>
                 <button className="ui button" onClick={sendCommand('forward 50')}>Forward 50cm</button>
                 <button className="ui button" onClick={sendCommand('left 50')}>Left 50cm</button>

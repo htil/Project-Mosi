@@ -28,7 +28,12 @@ class App extends React.Component {
     renderContent() {
         if(!this.state.headset && !this.state.controller){
             return (
-                <div>
+                <div style= {{
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    margin: '0 auto'
+                }}>
                     <button className="massive ui negative icon button" onClick= {this.setController}>
                         <i className="gamepad icon"></i>
                     </button>
